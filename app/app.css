@@ -1,0 +1,115 @@
+/*
+  app uses color theme https://color.adobe.com/Pizza-Chain-Bot-Manager-(React-MVA)-color-theme-8042644/ 
+    blue #6aa0a6
+    green #9aa641
+    beige #f2dfa7
+    brown #c4925d  
+    gray #666c60
+*/
+
+
+body {
+  font-family:'Segoe UI', Helvetica, sans-serif;
+  background-color:#BFE4E3
+}
+.container {
+  display: flex;
+}
+.column {
+  flex: 1;
+  margin:10px;
+  padding:10px 15px;
+}
+
+.column > h1 {
+  font-family:'Segoe UI Light';
+  margin-top:0px;
+}
+
+/* CHAT PANE */
+#chat-pane {
+  background-color: #fff;
+}
+
+#chat-pane > iframe {
+  min-height: 450px;
+}
+
+#chat-pane > div {
+  list-style: none;
+  margin: 5px;
+}
+
+/* INBOX PANE */
+#inbox-pane {
+  background-color:#6aa0a6;
+}
+
+#inbox-pane > table {
+  text-align:left;  
+}
+
+#inbox-pane > div {
+  background-color: rgba(255,255,255,0.5);
+  list-style: none;
+  padding:10px 20px;
+  margin:5px;
+}
+
+
+/* CONVERSATION PANE */
+#conversation-pane {
+  background-color:#8FCD8F;
+}
+
+#conversation-pane #messages p {
+  padding:5px;
+  vertical-align: middle;
+}
+
+#conversation-pane #messages p.bot {
+  margin-right:50px;
+  background-color:rgba(255,255,255,0.5);  
+}
+
+#conversation-pane #messages p.human {
+  margin-left:50px;
+  background-color:rgba(255,255,255,0.2);  
+}
+
+/* STORES PANE */
+#stores-pane {
+  background-color:#2AA4A2;
+}
+
+#stores-pane > ul {
+  padding-left:0px;
+  list-style: none;
+}
+
+#stores-pane .store {
+  background-color: #8CC14E;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+  display:flex;
+}
+
+
+.store > .name {
+  font-weight:bold;
+  flex:1;
+  padding:6px;
+}
+
+#stores-pane .store .orders {
+  display:flex;
+  font-weight:bold;
+  font-size:20pt;
+  vertical-align: middle;
+}
+
+#stores-pane .store .orders > div {
+  padding-right:8px;
+  display:flex;
+  align-items: center;
+}
