@@ -1,5 +1,5 @@
-# PizzaBotManager
-Sample app for the React MVA
+# Phone Ordering Demo
+Demo app built using React hooked up to LUIS.Ai
 
 ## Dependencies:
 * React
